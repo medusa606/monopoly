@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
-#include "TileData.h"
+#include "tileData.h"
 #include "playerClass.h"
 using namespace std;
 
@@ -28,7 +28,7 @@ using namespace std;
 		//card names
 			m_sChanceName[	0	]	=	"Advance to Mayfair	"	;
 			m_sChanceName[	1	]	=	"Advance to Go	"	;
-			m_sChanceName[	2	]	=	"You are Assessed for Street Repairs GBP40 per House GBP115 per Hotel	"	;
+			m_sChanceName[	2	]	=	"You are Assessed forï¿½Street Repairsï¿½GBP40 per House GBP115 per Hotel	"	;
 			m_sChanceName[	3	]	=	"Go to Jail. Move Directly to Jail. Do not pass Go Do not Collect GBP200	"	;
 			m_sChanceName[	4	]	=	"Bank pays you Dividend of GBP50	"	;
 			m_sChanceName[	5	]	=	"Go back 3 Spaces	"	;
@@ -38,7 +38,7 @@ using namespace std;
 			m_sChanceName[	9	]	=	"You have won a Crossword Competition Collect GBP100	"	;
 			m_sChanceName[	10	]	=	"Your Building and Loan Matures Collect GBP150	"	;
 			m_sChanceName[	11	]	=	"Get out of Jail Free	"	;
-			m_sChanceName[	12	]	=	"Avance to Trafalgar Square If you Pass Go Collect GBP200	"	;
+			m_sChanceName[	12	]	=	"Avance toï¿½Trafalgar Squareï¿½If you Pass Go Collect GBP200	"	;
 			m_sChanceName[	13	]	=	"Take a Trip to Marylebone Station and if you Pass Go Collect GBP200	"	;
 			m_sChanceName[	14	]	=	"Advance to Pall Mall If you Pass Go Collect GBP200	"	;
 			m_sChanceName[	15	]	=	"Drunk in Charge of a vehicle. Fine of (only) GBP20!	"	;
