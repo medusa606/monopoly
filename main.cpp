@@ -3,8 +3,8 @@
 #include <math.h>
 #include <cstdlib>
 #include <ctime>
-#include <cstdio>			//for getchar()
-#include <filesystem>       //PWD
+#include <cstdio>               //for getchar()
+#include <filesystem>           //PWD
 
 #include "diceheader.h"		//header file for dice parameters and structures
 #include "playerClassNew.h"
