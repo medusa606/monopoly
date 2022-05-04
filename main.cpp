@@ -1,4 +1,4 @@
-//#include "stdafx.h"
+#include "stdafx.h"
 #include <iostream>
 #include <math.h>
 #include <cstdlib>
@@ -30,15 +30,8 @@ using namespace std;
 
 int main()
 {
-
-
-//    char working_dir[256];
-//    getcwd(working_dir, 256);
-//    std::cout << "Current working directory: " << working_dir << std::endl;
-
-        //create seed value for random number generation base on clock time
-        //srand(unsigned(time(0)));
-        srand(0);	//create know seed for testing
+     //create seed value for random number generation base on clock time
+        srand(0);	
 
     //if required perform statistical test on random dice function
         bool diceTest = 0;
@@ -56,7 +49,7 @@ int main()
         const int nMaxPlayers = 8;
         int success=0;
         int nPlayers;
-        char GBP = 156;	//� sign
+        char GBP = 156;	//£ sign
         while(success == 0){
             cout<<"Enter the number of players (2-8): ";
             cin>>nPlayers;
